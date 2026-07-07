@@ -17,4 +17,4 @@ figures/
 __pycache__/
 *.pyc
 uv.lock
-.python-version
+.python-version!assets/
