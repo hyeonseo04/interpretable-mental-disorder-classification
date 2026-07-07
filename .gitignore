@@ -1,0 +1,20 @@
+# 데이터 폴더
+data/
+results/
+figures/
+
+# 데이터성 파일 (어디에 있든 제외)
+*.json
+*.jsonl
+*.txt
+*.csv
+*.corrupted
+*.parsefail
+*.corrupted.txt
+
+# 가상환경 / 캐시
+.venv/
+__pycache__/
+*.pyc
+uv.lock
+.python-version
