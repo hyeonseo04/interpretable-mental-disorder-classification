@@ -1,0 +1,11 @@
+{
+ "n": 1440,
+ "parse_status": {
+  "ok": 1436,
+  "partial": 4
+ },
+ "parse_fail_rate": 0.002777777777777778,
+ "finish_length": 0,
+ "prompt_tokens_max": 26077,
+ "finished": "2026-10-02 13:46:31"
+}

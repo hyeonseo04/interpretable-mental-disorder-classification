@@ -1,0 +1,5 @@
+﻿feature,mean_ADD,mean_ANX,mean_DEP,mean_NOR,AUC_disorder_vs_NOR
+n_active,14.885,12.103,13.753,10.015,0.731
+mean_score,0.738,0.605,0.689,0.459,0.737
+max_score,2.042,2.095,2.028,1.766,0.727
+score_entropy,1.299,1.230,1.286,1.084,0.711

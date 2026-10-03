@@ -1,0 +1,78 @@
+{
+ "config": {
+  "method": "direct4",
+  "model_key": "14b",
+  "hf_id": "Qwen/Qwen2.5-14B-Instruct",
+  "model_path": "/workspace/.cache/huggingface/hub/models--Qwen--Qwen2.5-14B-Instruct/snapshots/cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+  "snapshot": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+  "max_model_len": 32768,
+  "max_tokens": 128,
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "seed": 0,
+  "dtype": "bfloat16",
+  "tp": 2,
+  "chunk": 128,
+  "truncation": "none"
+ },
+ "env": {
+  "versions": {
+   "python": "3.12.10",
+   "vllm": "0.19.1",
+   "torch": "2.10.0+cu128",
+   "transformers": "5.11.0",
+   "scikit-learn": "1.9.0",
+   "numpy": "2.2.6",
+   "scipy": "1.17.1"
+  },
+  "gpus": [
+   {
+    "name": "NVIDIA RTX A6000",
+    "memory": "49140 MiB"
+   },
+   {
+    "name": "NVIDIA RTX A6000",
+    "memory": "49140 MiB"
+   }
+  ],
+  "driver": "595.91.07",
+  "cuda_runtime": "12.8",
+  "torch_cuda_available": true,
+  "platform": "Linux-6.8.0-139-generic-x86_64-with-glibc2.39",
+  "hostname": "11926a917f9f",
+  "argv": [
+   "/workspace/kci-rerun/src/kci/infer.py",
+   "--model-key",
+   "14b",
+   "--model-path",
+   "/workspace/.cache/huggingface/hub/models--Qwen--Qwen2.5-14B-Instruct/snapshots/cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+   "--methods",
+   "factor28",
+   "zeroshot",
+   "fewshot",
+   "direct4",
+   "--tp",
+   "2",
+   "--gpu-mem",
+   "0.92"
+  ]
+ },
+ "token_stats_todo": {
+  "mean": 6929.434722222222,
+  "max": 26077,
+  "max_plus_gen": 26205
+ },
+ "manifest_sha1": "7d01cddffff51c8e6f6a981b24d48943db832445",
+ "started": "2026-10-02 13:11:53",
+ "summary": {
+  "n": 1440,
+  "parse_status": {
+   "ok": 1436,
+   "partial": 4
+  },
+  "parse_fail_rate": 0.002777777777777778,
+  "finish_length": 0,
+  "prompt_tokens_max": 26077,
+  "finished": "2026-10-02 13:46:31"
+ }
+}

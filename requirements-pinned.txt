@@ -1,0 +1,10 @@
+# uv.lock 이 없을 때만 사용하는 대체 고정 목록 (논문 3.5절 버전).
+# 원본 연구실 서버의 uv.lock 을 쓰는 것이 우선이다 — 그래야 전이 의존성까지 동일하다.
+vllm==0.19.1
+torch==2.10.0
+transformers==5.11.0
+scikit-learn==1.9.0
+numpy==2.2.6
+scipy==1.17.1
+matplotlib
+huggingface_hub

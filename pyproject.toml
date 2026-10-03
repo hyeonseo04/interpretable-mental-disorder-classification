@@ -1,0 +1,14 @@
+[project]
+name = "interpretable-mental-disorder-classification"
+version = "0.1.0"
+description = "Interpretable classification of mental disorders from Korean counseling transcripts via LLM-based symptom factor extraction"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "json-repair>=0.59.10",
+    "matplotlib>=3.11.0",
+    "numpy",
+    "scikit-learn>=1.9.0",
+    "scipy",
+    "vllm==0.19.1",
+]

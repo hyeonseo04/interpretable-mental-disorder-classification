@@ -1,0 +1,36 @@
+{
+ "n_sessions": 1440,
+ "n_persons": 207,
+ "n_corrupted": 15,
+ "corrupted": [
+  "label_addiction_9_check_A087",
+  "label_anxiety_2_check_X001",
+  "label_anxiety_2_check_X045",
+  "label_anxiety_2_check_X055",
+  "label_anxiety_5_check_X045",
+  "label_anxiety_6_check_X007",
+  "label_anxiety_6_check_X038",
+  "label_anxiety_7_check_X007",
+  "label_depression_1_check_D013",
+  "label_depression_1_check_D015",
+  "label_depression_1_check_D022",
+  "label_depression_1_check_D037",
+  "label_depression_1_check_D043",
+  "label_depression_4_check_D005",
+  "label_depression_5_check_D031"
+ ],
+ "empty": [],
+ "persons_per_fold": {
+  "0": 41,
+  "1": 41,
+  "2": 41,
+  "3": 42,
+  "4": 42
+ },
+ "n_index_order_changed": 0,
+ "manifest_sha1": "7d01cddffff51c8e6f6a981b24d48943db832445",
+ "chars": {
+  "mean": 10423.323611111111,
+  "max": 42591
+ }
+}

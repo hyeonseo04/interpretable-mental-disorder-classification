@@ -1,0 +1,16 @@
+# ── AI Hub 데이터와 세션 단위 산출물은 재배포하지 않는다 ──
+data/
+results/
+logs/
+paper_out*/
+analysis_out*/
+# (expected/ 의 집계 결과·실행 기록만 저장소에 포함)
+
+# 환경 / 캐시
+.venv/
+__pycache__/
+*.pyc
+.runpod_env
+*.tgz
+.DS_Store
+.vscode/

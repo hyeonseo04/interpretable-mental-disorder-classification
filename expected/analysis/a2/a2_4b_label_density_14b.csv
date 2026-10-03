@@ -1,0 +1,9 @@
+﻿group_by,class,n_sessions,gold_pos_per_session,gold_empty_rate,llm_pos_per_session,llm_all_zero_rate,llm_pos_in_gold_empty_sessions
+session_label,ADDICTION,397,3.695,0.045,13.118,0.008,5.611
+session_label,ANXIETY,375,5.072,0.011,11.211,0.003,8.250
+session_label,DEPRESSION,429,5.536,0.016,12.410,0.007,12.000
+session_label,NORMAL,239,3.414,0.075,9.967,0.017,5.222
+person_label,ADDICTION,407,3.693,0.044,13.138,0.007,5.611
+person_label,ANXIETY,383,5.034,0.013,11.214,0.003,6.800
+person_label,DEPRESSION,431,5.538,0.016,12.427,0.007,12.000
+person_label,NORMAL,219,3.388,0.078,9.680,0.018,5.471

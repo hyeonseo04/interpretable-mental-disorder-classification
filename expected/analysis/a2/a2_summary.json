@@ -1,0 +1,432 @@
+{
+ "14b": {
+  "A2-1": {
+   "NOR_precision": 0.475,
+   "NOR_recall": 0.59375,
+   "disorder_sensitivity": 0.88,
+   "disorder_to_normal": 0.12,
+   "NOR_to_ADD": 0.0625,
+   "ADD_to_NOR": 0.01694915254237288,
+   "NOR_to_ANX": 0.1875,
+   "ANX_to_NOR": 0.16071428571428573,
+   "NOR_to_DEP": 0.15625,
+   "DEP_to_NOR": 0.18333333333333332,
+   "disorder_sensitivity_ci": [
+    0.8295421122994653,
+    0.9248554913294798
+   ],
+   "NOR_recall_ci": [
+    0.42846320346320343,
+    0.775069444444444
+   ]
+  },
+  "A2-2": {
+   "ADDICTION": {
+    "mean": 0.9370712577227701,
+    "sd": 0.01931241083405462
+   },
+   "ANXIETY": {
+    "mean": 0.6760904851019458,
+    "sd": 0.05658277583997981
+   },
+   "DEPRESSION": {
+    "mean": 0.6538271655167291,
+    "sd": 0.05800708929908513
+   },
+   "NORMAL": {
+    "mean": 0.5973793693669377,
+    "sd": 0.048913350003641845
+   },
+   "n_per_class": 32,
+   "normal_still_lowest_rate": 0.76
+  },
+  "A2-3": {
+   "overlap_auc": {
+    "n_active": 0.6825,
+    "mean_score": 0.7120535714285714,
+    "max_score": 0.7255357142857142,
+    "score_entropy": 0.6975
+   },
+   "base": {
+    "NOR_F1": 0.5277777777777778,
+    "macro_f1": 0.7347177161765984
+   },
+   "aug": {
+    "NOR_F1": 0.5333333333333333,
+    "macro_f1": 0.7495199532476207
+   },
+   "delta_NOR_F1_ci": [
+    -0.03158359717041262,
+    0.05743797643797638
+   ],
+   "p_boot": 0.88
+  },
+  "A2-4": {
+   "sparse_factors": [
+    "lying"
+   ],
+   "threshold": 20,
+   "all": {
+    "NOR_F1": 0.5277777777777778,
+    "macro_f1": 0.7347177161765984
+   },
+   "without_sparse": {
+    "NOR_F1": 0.5277777777777778,
+    "macro_f1": 0.7302566678845451
+   },
+   "sparse_only": {
+    "NOR_F1": 0.2962962962962963,
+    "macro_f1": 0.17467308746378513
+   }
+  },
+  "A2-4b": {
+   "session_label": {
+    "ADDICTION": {
+     "n": 397,
+     "gold_pos_per_session": 3.695214105793451,
+     "gold_empty_rate": 0.04534005037783375,
+     "llm_pos_per_session": 13.1183879093199,
+     "llm_all_zero_rate": 0.007556675062972292,
+     "llm_pos_in_gold_empty": 5.611111111111111
+    },
+    "ANXIETY": {
+     "n": 375,
+     "gold_pos_per_session": 5.072,
+     "gold_empty_rate": 0.010666666666666666,
+     "llm_pos_per_session": 11.210666666666667,
+     "llm_all_zero_rate": 0.0026666666666666666,
+     "llm_pos_in_gold_empty": 8.25
+    },
+    "DEPRESSION": {
+     "n": 429,
+     "gold_pos_per_session": 5.536130536130536,
+     "gold_empty_rate": 0.016317016317016316,
+     "llm_pos_per_session": 12.41025641025641,
+     "llm_all_zero_rate": 0.006993006993006993,
+     "llm_pos_in_gold_empty": 12.0
+    },
+    "NORMAL": {
+     "n": 239,
+     "gold_pos_per_session": 3.414225941422594,
+     "gold_empty_rate": 0.07531380753138076,
+     "llm_pos_per_session": 9.96652719665272,
+     "llm_all_zero_rate": 0.016736401673640166,
+     "llm_pos_in_gold_empty": 5.222222222222222
+    }
+   },
+   "person_label": {
+    "ADDICTION": {
+     "n": 407,
+     "gold_pos_per_session": 3.692874692874693,
+     "gold_empty_rate": 0.044226044226044224,
+     "llm_pos_per_session": 13.137592137592138,
+     "llm_all_zero_rate": 0.007371007371007371,
+     "llm_pos_in_gold_empty": 5.611111111111111
+    },
+    "ANXIETY": {
+     "n": 383,
+     "gold_pos_per_session": 5.033942558746737,
+     "gold_empty_rate": 0.013054830287206266,
+     "llm_pos_per_session": 11.214099216710183,
+     "llm_all_zero_rate": 0.0026109660574412533,
+     "llm_pos_in_gold_empty": 6.8
+    },
+    "DEPRESSION": {
+     "n": 431,
+     "gold_pos_per_session": 5.538283062645012,
+     "gold_empty_rate": 0.016241299303944315,
+     "llm_pos_per_session": 12.42691415313225,
+     "llm_all_zero_rate": 0.0069605568445475635,
+     "llm_pos_in_gold_empty": 12.0
+    },
+    "NORMAL": {
+     "n": 219,
+     "gold_pos_per_session": 3.3881278538812785,
+     "gold_empty_rate": 0.0776255707762557,
+     "llm_pos_per_session": 9.680365296803654,
+     "llm_all_zero_rate": 0.0182648401826484,
+     "llm_pos_in_gold_empty": 5.470588235294118
+    }
+   }
+  },
+  "A2-5": {
+   "disorder_sessions_low_signal_rate": 0.028665028665028666,
+   "n_missed_to_normal": 21,
+   "n_correct": 138,
+   "mean_score": {
+    "missed": 0.4711997894395854,
+    "correct": 0.7279082790340555,
+    "normal_persons": 0.49119100765306123,
+    "mannwhitney_p": 0.0002420401174867589
+   },
+   "n_active": {
+    "missed": 9.356292517006802,
+    "correct": 12.72684322521279,
+    "normal_persons": 9.518229166666668,
+    "mannwhitney_p": 0.001291818387279766
+   }
+  },
+  "A2-6": {
+   "two_stage_4cls_macro_f1": 0.6026106354956761,
+   "two_stage_NOR_F1": 0.43478260869565216,
+   "two_stage_disorder_sensitivity": 0.6685714285714286,
+   "one_stage_4cls_macro_f1": 0.7347177161765984,
+   "macro_f1_3cls_posthoc": 0.8344643196128345,
+   "macro_f1_3cls_retrained": 0.8451112549725801
+  },
+  "A2-7": {
+   "auc_disorder_vs_normal": 0.8064285714285714,
+   "points": [
+    {
+     "threshold_P_NOR": 0.2,
+     "sensitivity": 0.44,
+     "specificity": 0.9375
+    },
+    {
+     "threshold_P_NOR": 0.25,
+     "sensitivity": 0.6057142857142858,
+     "specificity": 0.875
+    },
+    {
+     "threshold_P_NOR": 0.3,
+     "sensitivity": 0.7257142857142858,
+     "specificity": 0.75
+    },
+    {
+     "threshold_P_NOR": 0.35,
+     "sensitivity": 0.8685714285714285,
+     "specificity": 0.46875
+    },
+    {
+     "threshold_P_NOR": 0.4,
+     "sensitivity": 0.9542857142857143,
+     "specificity": 0.1875
+    },
+    {
+     "threshold_P_NOR": 0.5,
+     "sensitivity": 1.0,
+     "specificity": 0.0625
+    }
+   ],
+   "argmax": {
+    "sensitivity": 0.88,
+    "specificity": 0.59375
+   }
+  }
+ },
+ "32b": {
+  "A2-1": {
+   "NOR_precision": 0.45652173913043476,
+   "NOR_recall": 0.65625,
+   "disorder_sensitivity": 0.8571428571428571,
+   "disorder_to_normal": 0.14285714285714285,
+   "NOR_to_ADD": 0.03125,
+   "ADD_to_NOR": 0.03389830508474576,
+   "NOR_to_ANX": 0.15625,
+   "ANX_to_NOR": 0.19642857142857142,
+   "NOR_to_DEP": 0.15625,
+   "DEP_to_NOR": 0.2,
+   "disorder_sensitivity_ci": [
+    0.8044692737430168,
+    0.9075168069866801
+   ],
+   "NOR_recall_ci": [
+    0.4857142857142857,
+    0.8235661764705879
+   ]
+  },
+  "A2-2": {
+   "ADDICTION": {
+    "mean": 0.9221008792999242,
+    "sd": 0.02772299705375781
+   },
+   "ANXIETY": {
+    "mean": 0.6533197847451818,
+    "sd": 0.04233529859430404
+   },
+   "DEPRESSION": {
+    "mean": 0.6143817637771766,
+    "sd": 0.06648882236163624
+   },
+   "NORMAL": {
+    "mean": 0.6077672491053261,
+    "sd": 0.04804530930977202
+   },
+   "n_per_class": 32,
+   "normal_still_lowest_rate": 0.46
+  },
+  "A2-3": {
+   "overlap_auc": {
+    "n_active": 0.7314285714285713,
+    "mean_score": 0.7366964285714285,
+    "max_score": 0.7266964285714286,
+    "score_entropy": 0.7108035714285714
+   },
+   "base": {
+    "NOR_F1": 0.5384615384615384,
+    "macro_f1": 0.720660368080497
+   },
+   "aug": {
+    "NOR_F1": 0.5454545454545454,
+    "macro_f1": 0.7205189398766562
+   },
+   "delta_NOR_F1_ci": [
+    -0.014448910110152174,
+    0.032951680138274556
+   ],
+   "p_boot": 0.773
+  },
+  "A2-4": {
+   "sparse_factors": [
+    "lying"
+   ],
+   "threshold": 20,
+   "all": {
+    "NOR_F1": 0.5384615384615384,
+    "macro_f1": 0.720660368080497
+   },
+   "without_sparse": {
+    "NOR_F1": 0.5714285714285714,
+    "macro_f1": 0.7175595238095238
+   },
+   "sparse_only": {
+    "NOR_F1": 0.3105590062111801,
+    "macro_f1": 0.19224529526281633
+   }
+  },
+  "A2-4b": {
+   "session_label": {
+    "ADDICTION": {
+     "n": 397,
+     "gold_pos_per_session": 3.695214105793451,
+     "gold_empty_rate": 0.04534005037783375,
+     "llm_pos_per_session": 14.370277078085643,
+     "llm_all_zero_rate": 0.0,
+     "llm_pos_in_gold_empty": 8.0
+    },
+    "ANXIETY": {
+     "n": 375,
+     "gold_pos_per_session": 5.072,
+     "gold_empty_rate": 0.010666666666666666,
+     "llm_pos_per_session": 12.202666666666667,
+     "llm_all_zero_rate": 0.0,
+     "llm_pos_in_gold_empty": 7.25
+    },
+    "DEPRESSION": {
+     "n": 429,
+     "gold_pos_per_session": 5.536130536130536,
+     "gold_empty_rate": 0.016317016317016316,
+     "llm_pos_per_session": 13.685314685314685,
+     "llm_all_zero_rate": 0.004662004662004662,
+     "llm_pos_in_gold_empty": 10.571428571428571
+    },
+    "NORMAL": {
+     "n": 239,
+     "gold_pos_per_session": 3.414225941422594,
+     "gold_empty_rate": 0.07531380753138076,
+     "llm_pos_per_session": 10.087866108786612,
+     "llm_all_zero_rate": 0.0,
+     "llm_pos_in_gold_empty": 6.944444444444445
+    }
+   },
+   "person_label": {
+    "ADDICTION": {
+     "n": 407,
+     "gold_pos_per_session": 3.692874692874693,
+     "gold_empty_rate": 0.044226044226044224,
+     "llm_pos_per_session": 14.358722358722359,
+     "llm_all_zero_rate": 0.0,
+     "llm_pos_in_gold_empty": 8.0
+    },
+    "ANXIETY": {
+     "n": 383,
+     "gold_pos_per_session": 5.033942558746737,
+     "gold_empty_rate": 0.013054830287206266,
+     "llm_pos_per_session": 12.172323759791123,
+     "llm_all_zero_rate": 0.0,
+     "llm_pos_in_gold_empty": 6.8
+    },
+    "DEPRESSION": {
+     "n": 431,
+     "gold_pos_per_session": 5.538283062645012,
+     "gold_empty_rate": 0.016241299303944315,
+     "llm_pos_per_session": 13.705336426914153,
+     "llm_all_zero_rate": 0.004640371229698376,
+     "llm_pos_in_gold_empty": 10.571428571428571
+    },
+    "NORMAL": {
+     "n": 219,
+     "gold_pos_per_session": 3.3881278538812785,
+     "gold_empty_rate": 0.0776255707762557,
+     "llm_pos_per_session": 9.817351598173516,
+     "llm_all_zero_rate": 0.0,
+     "llm_pos_in_gold_empty": 7.0588235294117645
+    }
+   }
+  },
+  "A2-5": {
+   "disorder_sessions_low_signal_rate": 0.013923013923013924,
+   "n_missed_to_normal": 25,
+   "n_correct": 132,
+   "mean_score": {
+    "missed": 0.4326417233560091,
+    "correct": 0.7041823909315793,
+    "normal_persons": 0.4585215596655329,
+    "mannwhitney_p": 5.981036740848303e-07
+   },
+   "n_active": {
+    "missed": 9.513730158730159,
+    "correct": 14.093459486641306,
+    "normal_persons": 10.014880952380953,
+    "mannwhitney_p": 1.2178484869130938e-06
+   }
+  },
+  "A2-6": {
+   "two_stage_4cls_macro_f1": 0.6392004402325504,
+   "two_stage_NOR_F1": 0.5137614678899083,
+   "two_stage_disorder_sensitivity": 0.72,
+   "one_stage_4cls_macro_f1": 0.720660368080497,
+   "macro_f1_3cls_posthoc": 0.8064957264957265,
+   "macro_f1_3cls_retrained": 0.8228348838968308
+  },
+  "A2-7": {
+   "auc_disorder_vs_normal": 0.8264285714285713,
+   "points": [
+    {
+     "threshold_P_NOR": 0.2,
+     "sensitivity": 0.48,
+     "specificity": 0.90625
+    },
+    {
+     "threshold_P_NOR": 0.25,
+     "sensitivity": 0.6457142857142857,
+     "specificity": 0.90625
+    },
+    {
+     "threshold_P_NOR": 0.3,
+     "sensitivity": 0.76,
+     "specificity": 0.75
+    },
+    {
+     "threshold_P_NOR": 0.35,
+     "sensitivity": 0.8571428571428571,
+     "specificity": 0.5625
+    },
+    {
+     "threshold_P_NOR": 0.4,
+     "sensitivity": 0.9428571428571428,
+     "specificity": 0.375
+    },
+    {
+     "threshold_P_NOR": 0.5,
+     "sensitivity": 1.0,
+     "specificity": 0.09375
+    }
+   ],
+   "argmax": {
+    "sensitivity": 0.8571428571428571,
+    "specificity": 0.65625
+   }
+  }
+ }
+}
